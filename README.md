@@ -15,7 +15,7 @@ Weld the header pins to receiver (if needed).
 Put all on breadboard and put wiring:
 | Arduino | Receiver |
 |--------:|:---------|
-| vcc 5v  | vcc 5c   |
+| vcc 5v  | vcc 5v   |
 | GND     | GND      |
 | TX      | RX       |
 | RX      | TX       |
@@ -29,25 +29,16 @@ Update ELRS to latest version (in my case 3.2.0) on receiver and transmitter. Se
 Compile and flash `ElrsJoystic.ino` on Arduino Micro, have fun.
 
 ### Channel mapping
-| RF Channel | Joystick  |
-|:-------:|:------------:|
-| 1       | Axis X       |
-| 2       | Axis Y       |
-| 3       | Axis Rudder  |
-| 4       | Axis Throttle|
-| 5       | |
-| 6       | |
-| 7       | |
-| 8       | |
-| 9       | |
-| 10      | |
-| 11      | |
-| 12      | |
-| 13      | |
-| 14      | |
-| 15      | |
-| 16      | |
+| RF Channel | Joystick       |
+|:-------:|:-----------------:|
+| 1       | Axis X            |
+| 2       | Axis Y            |
+| 3       | Axis Rudder       |
+| 4       | Axis Throttle     |
+| 5..16   | None at the moment|
 
+## Schematics
+I've done a very basic schematics and shared under `schematics` folder 
 
 
 ## Thanks to
