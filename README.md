@@ -1,3 +1,8 @@
+# Awareness Aquired
+
+ELRS on my transmitter support BLE Joystick (but I haven't seen it!). So this is useless for me :smile:
+
+
 # ELRS -> USBJoystick Bridge
 
 ## Components
